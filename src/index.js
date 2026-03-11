@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import CipherStrike from './CipherStrike';
+import CyberSiege from './CyberSiege';
 
 // Capacitor core — handles native bridge
 import { defineCustomElements } from '@ionic/pwa-elements/loader';
@@ -11,6 +11,6 @@ defineCustomElements(window);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CipherStrike />
+    <CyberSiege />
   </React.StrictMode>
 );

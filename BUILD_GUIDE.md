@@ -1,4 +1,4 @@
-# Cipher Strike — Mobile Build Guide
+# Cyber Siege — Mobile Build Guide
 ## React + Capacitor → Android & iOS
 
 ---
@@ -20,7 +20,7 @@ Open a terminal and run:
 
 ```bash
 # 1. Create the project folder and enter it
-mkdir cipher-strike && cd cipher-strike
+mkdir cyber-siege && cd cyber-siege
 
 # 2. Create a new React app
 npx create-react-app . --template minimal
@@ -38,12 +38,12 @@ npm install @capacitor/splash-screen @capacitor/status-bar @capacitor/keyboard @
 Replace the contents of your project with the provided files:
 
 ```
-cipher-strike/
+cyber-siege/
 ├── public/
 │   └── index.html          ← replace with provided index.html
 ├── src/
 │   ├── index.js            ← replace with provided index.js
-│   └── CipherStrike.jsx    ← your game file (copy here)
+│   └── CyberSiege.jsx    ← your game file (copy here)
 ├── capacitor.config.ts     ← copy provided file here
 └── package.json            ← replace with provided package.json
 ```
@@ -69,7 +69,7 @@ This creates a `/build` folder — the compiled web app that Capacitor will wrap
 ## STEP 4 — INITIALIZE CAPACITOR
 
 ```bash
-npx cap init "Cipher Strike" "com.cipherstrike.game" --web-dir build
+npx cap init "Cyber Siege" "com.cybersiege.game" --web-dir build
 ```
 
 ---
@@ -124,7 +124,7 @@ npx cap open ios
 
 ## STEP 6 — AFTER EVERY CODE CHANGE
 
-When you update `CipherStrike.jsx`, run this to push changes to mobile:
+When you update `CyberSiege.jsx`, run this to push changes to mobile:
 
 ```bash
 npm run build && npx cap sync
@@ -224,7 +224,7 @@ npx capacitor-assets generate
 If you want fonts to work without internet, download them and add to `public/fonts/`:
 
 ```css
-/* In CipherStrike.jsx, replace the @import with: */
+/* In CyberSiege.jsx, replace the @import with: */
 @font-face {
   font-family: 'Share Tech Mono';
   src: url('/fonts/ShareTechMono-Regular.ttf');
@@ -243,4 +243,4 @@ Download fonts from https://fonts.google.com
 
 ---
 
-*Cipher Strike — Built with React + Capacitor*
+*Cyber Siege — Built with React + Capacitor*

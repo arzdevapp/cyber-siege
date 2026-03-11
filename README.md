@@ -1,6 +1,6 @@
-# Cipher Strike — Digital Warfare Mobile Game
+# Cyber Siege — Digital Warfare Mobile Game
 
-Cipher Strike is a digital warfare mobile game built with React and Capacitor. Experience high-stakes simulated hacking missions in a neon-lit cyber-espionage world.
+Cyber Siege is a digital warfare mobile game built with React and Capacitor. Experience high-stakes simulated hacking missions in a neon-lit cyber-espionage world.
 
 ## Features
 - **Hacking Simulation Interfaces:** Engage with terminal-style missions using simulated real-world cyber tools (e.g., nmap, wireshark, aircrack-ng).
@@ -21,8 +21,8 @@ Cipher Strike is a digital warfare mobile game built with React and Capacitor. E
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/arzdevapp/cipherstrike-mobile.git
-   cd cipherstrike-mobile
+   git clone https://github.com/arzdevapp/cybersiege-mobile.git
+   cd cybersiege-mobile
    ```
 2. Install dependencies:
    ```bash

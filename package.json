@@ -1,8 +1,8 @@
 {
-  "name": "cipher-strike",
+  "name": "ghost-protocol",
   "version": "1.0.0",
   "private": true,
-  "description": "Cipher Strike — Digital Warfare Mobile Game",
+  "description": "The Ghost Protocol: Nova Terra",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
